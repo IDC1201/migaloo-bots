@@ -137,4 +137,4 @@ async function main() {
 	}
 }
 
-main().catch(process.exit);
+main().catch(e => {console.log(e), process.exit()});
